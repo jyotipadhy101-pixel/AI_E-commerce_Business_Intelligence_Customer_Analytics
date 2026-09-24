@@ -1,20 +1,71 @@
-# 📊 E-Commerce Sales Analysis
+# AI-Powered E-commerce Business Intelligence & Customer Analytics
 
-An end-to-end data analytics project using **Python, PostgreSQL, SQL, Excel, and Power BI** to analyze Superstore sales data and build an interactive sales dashboard.
+An end-to-end data analytics and machine learning project that analyzes e-commerce sales, profitability, customer behavior, RFM customer segments, and customer churn risk.
+
+The project combines **Python, SQL, Power BI, RFM analysis, and Machine Learning** to transform raw Superstore data into actionable business insights.
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 Project Overview
 
+This project analyzes the Superstore e-commerce dataset from multiple business perspectives:
+
+- Sales performance
+- Profitability
+- Customer behavior
+- Customer value
+- RFM customer segmentation
+- Customer churn prediction
+- Business recommendations
+
+The objective is to help businesses understand **what is selling, where profit is generated, which customers are valuable, which customers are at risk, and what actions can be taken to improve customer retention.**
+
+---
+
+## 🎯 Business Objectives
+
+The project answers important business questions such as:
+
+- How are overall sales performing?
+- Which categories and regions generate the most sales?
+- Which areas generate the highest profit?
+- How does discounting affect profitability?
+- Which customers contribute the most revenue?
+- Which customers are Champions, Loyal, At Risk, or Lost?
+- Which customers have a high probability of churn?
+- What actions can be taken to retain high-risk customers?
+
+---
+
+## 🛠️ Technologies Used
+
+### Programming & Data Analysis
 - Python
 - Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+### Database & SQL
 - PostgreSQL
-- pgAdmin 4
 - SQL
-- Microsoft Excel
-- Power BI
-- Git & GitHub
+- pgAdmin
+
+### Business Intelligence
+- Microsoft Power BI
+- Power Query
+- DAX
+
+### Machine Learning
+- Customer Churn Prediction
+- Classification
+- Churn Probability
+- Risk Level Prediction
+
+### Other Tools
 - VS Code
+- Git
+- GitHub
 
 ---
 
@@ -27,55 +78,29 @@ Ecommerce_Sales_Analysis/
 │   ├── Sample - Superstore.csv
 │   └── Sample - Superstore.xlsx
 │
-├── sql/
-│   └── superstore_queries.sql
+├── docs/
+│   └── business_insights.md
 │
 ├── powerbi/
-│   └── Superstore_Sales_Dashboard.pbix
+│   └── AI_Ecommerce_Business_Intelligence.pbix
 │
 ├── screenshots/
 │   ├── monthly_sales_trend.png
-│   ├── profit_distribution.png
 │   ├── sales_by_category.png
-│   └── sales_by_region.png
+│   ├── sales_by_region.png
+│   ├── profit_distribution.png
+│   ├── Executive_overview.png
+│   ├── sales_performance.png
+│   ├── customer_intelligence.png
+│   ├── rfm_customer_segmentation.png
+│   └── AI_customer_churn_prediction.png
 │
-├── docs/
+├── sql/
+│   ├── ecommerce_complete_analyst.sql
+│   └── superstore_queries.sql
+│
 ├── analysis.py
-├── README.md
-└── .gitignore
-```
-
----
-
-## 📊 Dashboard Features
-
-- 💰 Total Sales, Orders, Quantity, Profit & Profit Margin KPIs
-- 📈 Monthly Sales Trend
-- 📦 Sales by Category
-- 🌍 Sales by Region
-- 📊 Profit by Sub-Category
-- 🏆 Top 10 Customers
-- ⭐ Top 10 Products
-- 🎛️ Interactive Filters (Year, Region, Segment)
-
----
-
-## 📸 Dashboard Preview
-
-Dashboard screenshots are available in the **screenshots/** folder.
-
----
-
-## ▶️ How to Run
-
-1. Import the dataset into PostgreSQL.
-2. Run the SQL queries.
-3. Open the `.pbix` file in Power BI.
-4. Refresh the data source if required.
-
-
-## 👨‍💻 Author
-
-**Jyoti Padhy**
-
-GitHub: **https://github.com/jyotipadhy101-pixel**
+├── churn_prediction.py
+├── customer_churn_predictions.csv
+├── .gitignore
+└── README.md

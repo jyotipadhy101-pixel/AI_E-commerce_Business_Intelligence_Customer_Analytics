@@ -83,3 +83,20 @@ plt.ylabel("Frequency")
 plt.tight_layout()
 plt.savefig("screenshots/profit_distribution.png")
 plt.show()
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("dataset/Sample - Superstore.csv")
+
+profit_by_category = df.groupby("Category")["Profit"].sum().sort_values(ascending=False)
+
+profit_by_category.plot(kind="bar")
+plt.title("Profit by Category")
+plt.xlabel("Category")
+plt.ylabel("Total Profit")
+plt.xticks(rotation=0)
+plt.tight_layout()
+
+plt.savefig("screenshots/profit_by_category.png")
+plt.show()
