@@ -72,7 +72,7 @@ The project answers important business questions such as:
 ## 📂 Project Structure
 
 ```text
-Ecommerce_Sales_Analysis/
+AI_E-commerce_Business_Intelligence_Customer_Analytics/
 │
 ├── dataset/
 │   ├── Sample - Superstore.csv
@@ -89,11 +89,11 @@ Ecommerce_Sales_Analysis/
 │   ├── sales_by_category.png
 │   ├── sales_by_region.png
 │   ├── profit_distribution.png
-│   ├── Executive_overview.png
+│   ├── executive_overview.png
 │   ├── sales_performance.png
 │   ├── customer_intelligence.png
-│   ├── rfm_customer_segmentation.png
-│   └── AI_customer_churn_prediction.png
+│   ├── rfm_segmentation.png
+│   └── ai_churn_prediction.png
 │
 ├── sql/
 │   ├── ecommerce_complete_analyst.sql
